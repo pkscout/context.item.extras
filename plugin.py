@@ -25,7 +25,7 @@ from xbmcgui import Dialog, ListItem
 try:
     from urllib import urlencode, quote_plus
 except ImportError:
-    from urllib.parse import urlencode, quote_plus
+    from urllib.parse import urlencode, quote, quote_plus
     
 
 plugin = routing.Plugin()
@@ -74,7 +74,7 @@ def browse():
         li = ListItem("Search on Youtube")
         li.setProperty("specialsort", "bottom")
         url = plugin.url_for(youtube, q=args['title'][0] + ' Extras')
-        xbmcplugin.addDirectoryItem(plugin.handle, url, li, isFolder=True)
+        # xbmcplugin.addDirectoryItem(plugin.handle, url, li, isFolder=True)
 
     xbmcplugin.addSortMethod(plugin.handle, xbmcplugin.SORT_METHOD_LABEL)
     xbmcplugin.endOfDirectory(plugin.handle)
@@ -88,8 +88,8 @@ def youtube():
     if kb.isConfirmed():
         edited_query = kb.getText()
         if edited_query:
-            url = "plugin://plugin.video.youtube/search/?q=" + \
-                  quote_plus(edited_query)
+            url = "plugin://plugin.video.youtube/kodion/search/query/?q=" + \
+                  quote(edited_query)
             xbmc.executebuiltin('Container.Update(\"%s\")' % url)
 
 
