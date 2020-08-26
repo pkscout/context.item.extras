@@ -20,7 +20,10 @@ import sys
 import xbmc
 import xbmcgui
 import xbmcaddon
-from urllib import urlencode
+try:
+    from urllib import urlencode
+except ImportError:
+    from urllib.parse import urlencode
 
 
 def main():
