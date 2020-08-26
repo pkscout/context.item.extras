@@ -16,15 +16,14 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 import os
-from kodi_six import xbmc, xbmcvfs, xbmcaddon, xbmcplugin
-from kodi_six.xbmcgui import Dialog, ListItem
-from kodi_six.utils import py2_encode, py2_decode
+import xbmc
+import xbmcvfs
 import routing
-try:
-    from urllib import urlencode, quote_plus
-except ImportError:
-    from urllib.parse import urlencode, quote_plus
-    
+import xbmcaddon
+import xbmcplugin
+from xbmcgui import Dialog, ListItem
+from urllib import urlencode, quote_plus
+
 
 plugin = routing.Plugin()
 
@@ -52,7 +51,7 @@ def browse():
         li = ListItem(name)
         if 'fanart' in args:
             li.setArt({'fanart': args['fanart'][0]})
-        path = os.path.join(current_path, name.decode('utf-8'))
+        path = os.path.join(current_path, name)
         params = {
             b'path': path,
             b'title': args['title'][0],
@@ -65,14 +64,14 @@ def browse():
         li = ListItem(name)
         if 'fanart' in args:
             li.setArt({'fanart': args['fanart'][0]})
-        url = os.path.join(current_path, py2_decode(name))
+        url = os.path.join(current_path, name)
         xbmcplugin.addDirectoryItem(plugin.handle, url, li, isFolder=False)
 
     if 'isroot' in args:
         li = ListItem("Search on Youtube")
         li.setProperty("specialsort", "bottom")
         url = plugin.url_for(youtube, q=args['title'][0] + ' Extras')
-#        xbmcplugin.addDirectoryItem(plugin.handle, url, li, isFolder=True)
+        xbmcplugin.addDirectoryItem(plugin.handle, url, li, isFolder=True)
 
     xbmcplugin.addSortMethod(plugin.handle, xbmcplugin.SORT_METHOD_LABEL)
     xbmcplugin.endOfDirectory(plugin.handle)
@@ -86,9 +85,9 @@ def youtube():
     if kb.isConfirmed():
         edited_query = kb.getText()
         if edited_query:
-            url = "plugin://plugin.video.youtube/search/?q=" + \
+            url = b"plugin://plugin.video.youtube/search/?q=" + \
                   quote_plus(edited_query)
-            xbmc.executebuiltin('Container.Update(\"%s\")' % url)
+            xbmc.executebuiltin(b'Container.Update(\"%s\")' % url)
 
 
 if __name__ == '__main__':
