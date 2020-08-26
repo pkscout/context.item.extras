@@ -22,8 +22,11 @@ import routing
 import xbmcaddon
 import xbmcplugin
 from xbmcgui import Dialog, ListItem
-from urllib import urlencode, quote_plus
-
+try:
+    from urllib import urlencode, quote_plus
+except ImportError:
+    from urllib.parse import urlencode, quote_plus
+    
 
 plugin = routing.Plugin()
 
@@ -85,9 +88,9 @@ def youtube():
     if kb.isConfirmed():
         edited_query = kb.getText()
         if edited_query:
-            url = b"plugin://plugin.video.youtube/search/?q=" + \
+            url = "plugin://plugin.video.youtube/search/?q=" + \
                   quote_plus(edited_query)
-            xbmc.executebuiltin(b'Container.Update(\"%s\")' % url)
+            xbmc.executebuiltin('Container.Update(\"%s\")' % url)
 
 
 if __name__ == '__main__':
