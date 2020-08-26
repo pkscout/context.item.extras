@@ -51,7 +51,7 @@ def browse():
         li = ListItem(name)
         if 'fanart' in args:
             li.setArt({'fanart': args['fanart'][0]})
-        path = os.path.join(current_path, name)
+        path = os.path.join(current_path, name.decode('utf-8'))
         params = {
             b'path': path,
             b'title': args['title'][0],
@@ -64,13 +64,13 @@ def browse():
         li = ListItem(name)
         if 'fanart' in args:
             li.setArt({'fanart': args['fanart'][0]})
-        url = os.path.join(current_path, name)
+        url = os.path.join(current_path, name.decode('utf-8'))
         xbmcplugin.addDirectoryItem(plugin.handle, url, li, isFolder=False)
 
     if 'isroot' in args:
         li = ListItem("Search on Youtube")
         li.setProperty("specialsort", "bottom")
-        url = plugin.url_for(youtube, q=args['title'][0] + ' Extras')
+        url = plugin.url_for(youtube, q=args['title'][0].encode('utf-8') + ' Extras')
         xbmcplugin.addDirectoryItem(plugin.handle, url, li, isFolder=True)
 
     xbmcplugin.addSortMethod(plugin.handle, xbmcplugin.SORT_METHOD_LABEL)
