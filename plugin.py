@@ -16,12 +16,9 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 import os
-import xbmc
-import xbmcvfs
+from kodi_six import xbmc, xbmcvfs, xbmcaddon, xbmcplugin
+from kodi_six.xbmcgui import Dialog, ListItem
 import routing
-import xbmcaddon
-import xbmcplugin
-from xbmcgui import Dialog, ListItem
 try:
     from urllib import urlencode, quote_plus
 except ImportError:
