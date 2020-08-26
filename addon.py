@@ -17,9 +17,7 @@
 
 import os
 import sys
-import xbmc
-import xbmcgui
-import xbmcaddon
+from kodi_six import xbmc, xbmcgui, xbmcaddon
 try:
     from urllib import urlencode
 except ImportError:
