@@ -40,6 +40,7 @@ def main():
         'fanart': sys.listitem.getProperty('fanart_image'),
     }
     plugin_url = "plugin://context.item.extras/?" + urlencode(params)
+    print (plugin_url)
 
     if xbmcgui.getCurrentWindowId() == 10025:
         xbmc.executebuiltin('Container.Update(\"%s\")' % plugin_url)

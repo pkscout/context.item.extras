@@ -71,8 +71,13 @@ def browse():
     if 'isroot' in args:
         li = ListItem("Search on Youtube")
         li.setProperty("specialsort", "bottom")
+<<<<<<< HEAD
         url = plugin.url_for(youtube, q=py2_encode(args['title'][0]) + ' Extras')
         # xbmcplugin.addDirectoryItem(plugin.handle, url, li, isFolder=True)
+=======
+        url = plugin.url_for(youtube, q=args['title'][0] + ' Extras')
+        xbmcplugin.addDirectoryItem(plugin.handle, url, li, isFolder=True)
+>>>>>>> parent of cbc49d7... disabled youtube searching
 
     xbmcplugin.addSortMethod(plugin.handle, xbmcplugin.SORT_METHOD_LABEL)
     xbmcplugin.endOfDirectory(plugin.handle)
@@ -86,7 +91,11 @@ def youtube():
     if kb.isConfirmed():
         edited_query = kb.getText()
         if edited_query:
+<<<<<<< HEAD
             url = "plugin://plugin.video.youtube/kodion/search/query/?q=" + \
+=======
+            url = "plugin://plugin.video.youtube/search/?q=" + \
+>>>>>>> parent of cbc49d7... disabled youtube searching
                   quote_plus(edited_query)
             xbmc.executebuiltin('Container.Update(\"%s\")' % url)
 
