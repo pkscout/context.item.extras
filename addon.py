@@ -34,9 +34,9 @@ def main():
     xbmc.log("[%s] opening '%s'" % (addon.getAddonInfo('id'), extras_dir), xbmc.LOGDEBUG)
 
     params = {
-        'path': extras_dir,
+        'path': extras_dir.encode('base64'),
         'isroot': 'true',
-        'title': sys.listitem.getLabel(),
+        'title': sys.listitem.getLabel().encode('base64'),
         'fanart': sys.listitem.getProperty('fanart_image'),
     }
     plugin_url = "plugin://context.item.extras/?" + urlencode(params)
