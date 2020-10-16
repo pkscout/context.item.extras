@@ -52,8 +52,8 @@ def browse():
         li = ListItem(name)
         path = os.path.join(current_path, name)
         params = {
-            b'path': path,
-            b'title': args['title'][0],
+            b'path': py2_encode(path).encode('base64'),
+            b'title': args['title'][0].encode('base64'),
         }
         if 'fanart' in args:
             li.setArt({'fanart': args['fanart'][0]})
