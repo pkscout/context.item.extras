@@ -21,7 +21,8 @@
   </extension>
   <extension point="kodi.addon.metadata">
     <news>1.4.2
-remove YouTube option from menu (the option hasn't worked for quite some time)
+- updated language files
+- remove YouTube option from menu (the option hasn't worked for quite some time)
     </news>
     <platform>all</platform>
     <summary lang="en_GB">View extras and special features</summary>
