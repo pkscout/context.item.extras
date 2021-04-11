@@ -31,7 +31,8 @@ def main():
         return
 
     extras_dir = os.path.join(item_path, addon.getSetting('extras-folder'))
-    xbmc.log("[%s] opening '%s'" % (addon.getAddonInfo('id'), extras_dir), xbmc.LOGDEBUG)
+    xbmc.log("[%s] opening '%s'" %
+             (addon.getAddonInfo('id'), extras_dir), xbmc.LOGDEBUG)
 
     params = {
         'path': extras_dir,
