@@ -20,13 +20,8 @@
     <provides>video</provides>
   </extension>
   <extension point="kodi.addon.metadata">
-    <news>1.4.2
-- updated language files
-- remove YouTube option from menu (the option hasn't worked for quite some time)
-    </news>
+    <news>1.4.2[CR]- updated language files[CR]- remove YouTube option from menu (the option hasn't worked for quite some time)</news>
     <platform>all</platform>
-
-Tip: for how to avoid extras beings scraped to library, see http://kodi.wiki/view/Add-on:Extras</description>
     <license>GPL-3.0-ONLY</license>
     <forum>https://forum.kodi.tv/showthread.php?tid=312338</forum>
     <source>https://github.com/tamland/kodi-addon-extras</source>
@@ -36,8 +31,6 @@ Tip: for how to avoid extras beings scraped to library, see http://kodi.wiki/vie
       <fanart>fanart.jpg</fanart>
     </assets>
   </extension>
-
-Tip: for how to avoid extras beings scraped to library, see http://kodi.wiki/view/Add-on:Extras</description>
-    <summary lang="en_GB">View extras and special features</summary>
-    <description lang="en_GB">Provides an easy way to browse and view movie and TV show extras. Extras can be accessed from the context menu in the video library. By default, the add-on will look in the Extras sub-folder for content (can be changed in settings).Tip: for how to avoid extras beings scraped to library, see http://kodi.wiki/view/Add-on:Extras</description>
+  <summary lang="en_GB">View extras and special features</summary>
+  <description lang="en_GB">Provides an easy way to browse and view movie and TV show extras. Extras can be accessed from the context menu in the video library. By default, the add-on will look in the &quot;Extras&quot; sub-folder for content (can be changed in settings).[CR][CR]Tip: for how to avoid extras beings scraped to library, see http://kodi.wiki/view/Add-on:Extras</description>
 </addon>
