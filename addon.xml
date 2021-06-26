@@ -32,5 +32,6 @@
     </assets>
   </extension>
   <summary lang="en_GB">View extras and special features</summary>
+  <summary lang="ru_RU">Посмотреть дополнительные и специальные функции</summary>
   <description lang="en_GB">Provides an easy way to browse and view movie and TV show extras. Extras can be accessed from the context menu in the video library. By default, the add-on will look in the &quot;Extras&quot; sub-folder for content (can be changed in settings).[CR][CR]Tip: for how to avoid extras beings scraped to library, see http://kodi.wiki/view/Add-on:Extras</description>
 </addon>
