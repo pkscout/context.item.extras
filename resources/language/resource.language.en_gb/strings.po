@@ -4,14 +4,6 @@
 msgid ""
 msgstr ""
 
-msgctxt "Addon Summary"
-msgid "View extras and special features"
-msgstr ""
-
-msgctxt "Addon Description"
-msgid "Provides an easy way to browse and view movie and TV show extras. Extras can be accessed from the context menu in the video library. By default, the add-on will look in the \"Extras\" sub-folder for content (can be changed in settings).[CR][CR]Tip: for how to avoid extras beings scraped to library, see http://kodi.wiki/view/Add-on:Extras"
-msgstr ""
-
 msgctxt "#30000"
 msgid "Extras"
 msgstr ""
@@ -22,4 +14,12 @@ msgstr ""
 
 msgctxt "#30002"
 msgid "To use this add-on go to the video library and open the context menu on a movie or TV show."
+msgctxt "Addon Summary"
+msgid "View extras and special features"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Provides an easy way to browse and view movie and TV show extras. Extras can be accessed from the context menu in the video library. By default, the add-on will look in the \"Extras\" sub-folder for content (can be changed in settings).[CR][CR]Tip: for how to avoid extras beings scraped to library, see http://kodi.wiki/view/Add-on:Extras"
+msgstr ""
+
 msgstr ""
