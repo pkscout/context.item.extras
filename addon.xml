@@ -32,6 +32,11 @@
     </assets>
   </extension>
   <summary lang="en_GB">View extras and special features</summary>
+  <summary lang="es_ES">Ver extras y características especiales</summary>
+  <summary lang="he_IL">הצגת תוספות ויכולות מיוחדות</summary>
   <summary lang="ru_RU">Посмотреть дополнительные и специальные функции</summary>
   <description lang="en_GB">Provides an easy way to browse and view movie and TV show extras. Extras can be accessed from the context menu in the video library. By default, the add-on will look in the &quot;Extras&quot; sub-folder for content (can be changed in settings).[CR][CR]Tip: for how to avoid extras beings scraped to library, see http://kodi.wiki/view/Add-on:Extras</description>
+  <description lang="es_ES">Otorga una manera facil de ver extras en películas y series. Se puede acceder a los extras a través del menú contextual en la colección de video. Por defecto, este addon buscará el contenido en la subcarpeta &quot;Extras&quot; (se puede cambiar en los ajustes).[CR][CR]Consejo: para ver como se evita obtener la información de los extras en la colección, visite http://kodi.wiki/view/Add-on:Extras</description>
+  <description lang="he_IL">מספקת דרך קלה לעיין ולצפות בתוספות של סרטים ותכניות טלוויזיה. ניתן לגשת לתוספות מתפריט ההקשר בספריית הווידאו. כבררת מחדל, התוסף יחפש תוכן בתיקיית „תוספות” (ניתן לשנות בהגדרות).[CR][CR]עצה: כך ניתן למנוע את סריקת תיקיית התוספות - http://kodi.wiki/view/Add-on:Extras</description>
+  <description lang="ru_RU">Обеспечивает простой способ просмотра доп. сведений о фильмах и сериалах. Доступ к информации можно получить из контекстного меню в видеотеке. По умолчанию дополнение будет искать контент в папке &quot;Доп. материалы&quot; (можно изменить в настройках).[CR][CR]Дополнительная информация на сайте http://kodi.wiki/view/Add-on:Extras</description>
 </addon>
