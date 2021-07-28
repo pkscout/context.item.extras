@@ -31,17 +31,21 @@
       <fanart>fanart.jpg</fanart>
     </assets>
   </extension>
+  <summary lang="de_DE">Extras und spezielle Features ansehen</summary>
   <summary lang="en_GB">View extras and special features</summary>
   <summary lang="es_ES">Ver extras y características especiales</summary>
   <summary lang="fa_IR">دیدن ویژگی‌های ویژه و اضافه</summary>
   <summary lang="he_IL">הצגת תוספות ויכולות מיוחדות</summary>
+  <summary lang="lt_LT">Peržiūrėti priedus ir specialias funkcijas</summary>
   <summary lang="pl_PL">Zobacz dodatki i funkcje specjalne</summary>
   <summary lang="ru_RU">Посмотреть дополнительные и специальные функции</summary>
   <summary lang="tr_TR">Ekstraları ve özel özellikleri görüntüleyin</summary>
+  <description lang="de_DE">Stellt einen einfachen Weg zum Zugriff auf Extras von Filmen und Serien zur Verfügung. Extras können aus dem Kontextmenü der Videobibliothek eingesehen werden. Das Addon sucht im Unterordner „Extras“ nach Inhalten (kann in den Einstellungen geändert werden).[CR][CR]Tip: Vermeiden, dass Extras direkt in der Bibliothek gespeichert werden, siehe http://kodi.wiki/view/Add-on:Extras</description>
   <description lang="en_GB">Provides an easy way to browse and view movie and TV show extras. Extras can be accessed from the context menu in the video library. By default, the add-on will look in the &quot;Extras&quot; sub-folder for content (can be changed in settings).[CR][CR]Tip: for how to avoid extras beings scraped to library, see http://kodi.wiki/view/Add-on:Extras</description>
   <description lang="es_ES">Otorga una manera facil de ver extras en películas y series. Se puede acceder a los extras a través del menú contextual en la colección de video. Por defecto, este addon buscará el contenido en la subcarpeta &quot;Extras&quot; (se puede cambiar en los ajustes).[CR][CR]Consejo: para ver como se evita obtener la información de los extras en la colección, visite http://kodi.wiki/view/Add-on:Extras</description>
   <description lang="fa_IR">راهی آسان برای مرور و دیدن اضافه‌های فیلم و نمایش فراهم می‌کند. اضافه‌ها می‌توانند از فهرست زمینه در کتاب‌خانهٔ ویدیو در دسترس باشند. به صورت پیش‌گزیده، افزونه زیرشاخهٔ Extras را (می‌تواند در تنظیمات عوض شود) برای محتوا می‌نگرد.[CR][CR]نکته: برای جگونگی پویش نشدن اضافه‌ها به کتاب‌خانه http://kodi.wiki/view/Add-on:Extras را ببینید</description>
   <description lang="he_IL">מספקת דרך קלה לעיין ולצפות בתוספות של סרטים ותכניות טלוויזיה. ניתן לגשת לתוספות מתפריט ההקשר בספריית הווידאו. כבררת מחדל, התוסף יחפש תוכן בתיקיית „תוספות” (ניתן לשנות בהגדרות).[CR][CR]עצה: כך ניתן למנוע את סריקת תיקיית התוספות - http://kodi.wiki/view/Add-on:Extras</description>
+  <description lang="lt_LT">Suteikia paprastą būdą naršyti ir peržiūrėti filmų ir TV laidų priedus. Priedus galima pasiekti iš kontekstinio meniu vaizdo įrašų bibliotekoje. Pagal numatytuosius nustatymus priedas ieškos turinio poaplankyje „Priedai“ (galima pakeisti nustatymuose).[CR][CR]Patarimas: kaip išvengti į priedų nuskaitymo į biblioteką, žr. Http: // kodi.wiki/view/Add-on:Extras</description>
   <description lang="pl_PL">Zapewnia łatwy sposób przeglądania i oglądania dodatków do filmów i programów telewizyjnych. Dostęp do dodatków można uzyskać z menu kontekstowego w bibliotece wideo. Domyślnie dodatek będzie szukał zawartości w podfolderze „Extras” (można to zmienić w ustawieniach).[CR][CR]Wskazówka: aby dowiedzieć się, jak uniknąć ekstrakcji dodatków do biblioteki, zobacz http://kodi.wiki/view/Add-on:Extras</description>
   <description lang="ru_RU">Обеспечивает простой способ просмотра доп. сведений о фильмах и сериалах. Доступ к информации можно получить из контекстного меню в видеотеке. По умолчанию дополнение будет искать контент в папке &quot;Доп. материалы&quot; (можно изменить в настройках).[CR][CR]Дополнительная информация на сайте http://kodi.wiki/view/Add-on:Extras</description>
   <description lang="tr_TR">Film ve TV programı ekstralarına göz atmak ve bunları görüntülemek için kolay bir yol sağlar. Ekstralara video kitaplığındaki içerik menüsünden erişilebilir. Varsayılan olarak, eklenti, içerik için &quot;Ekstralar&quot; alt klasörüne bakacaktır (ayarlardan değiştirilebilir).[CR][CR]İpucu: Ekstraların kitaplığa eklenmesini nasıl önleyeceğiniz konusunda bkz. http://kodi.wiki/view/Add-on:Extras</description>
