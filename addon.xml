@@ -31,15 +31,18 @@
       <fanart>fanart.jpg</fanart>
     </assets>
   </extension>
+  <summary lang="da_DK">Se ekstramateriale og særlige programmer</summary>
   <summary lang="de_DE">Extras und spezielle Features ansehen</summary>
   <summary lang="en_GB">View extras and special features</summary>
   <summary lang="es_ES">Ver extras y características especiales</summary>
   <summary lang="fa_IR">دیدن ویژگی‌های ویژه و اضافه</summary>
+  <summary lang="fi_FI">Katso lisä- ja erikoisominaisuuksia</summary>
   <summary lang="he_IL">הצגת תוספות ויכולות מיוחדות</summary>
   <summary lang="lt_LT">Peržiūrėti priedus ir specialias funkcijas</summary>
   <summary lang="pl_PL">Zobacz dodatki i funkcje specjalne</summary>
   <summary lang="ru_RU">Посмотреть дополнительные и специальные функции</summary>
   <summary lang="tr_TR">Ekstraları ve özel özellikleri görüntüleyin</summary>
+  <description lang="da_DK">Giver en nem måde at gennemse og afspille ekstramateriale til film og tv-serier. Ekstramateriale kan tilgås fra kontekstmenuen i videobiblioteket. Som standard vil addon'et lede i undermappen &quot;Ekstra&quot; for indhold (kan ændres i indstillinger).[CR][CR]Tip: hvordan man undgår, at ekstramateriale tilføjes til biblioteket, se http://kodi.wiki/view/Add-on:Extras</description>
   <description lang="de_DE">Stellt einen einfachen Weg zum Zugriff auf Extras von Filmen und Serien zur Verfügung. Extras können aus dem Kontextmenü der Videobibliothek eingesehen werden. Das Addon sucht im Unterordner „Extras“ nach Inhalten (kann in den Einstellungen geändert werden).[CR][CR]Tip: Vermeiden, dass Extras direkt in der Bibliothek gespeichert werden, siehe http://kodi.wiki/view/Add-on:Extras</description>
   <description lang="en_GB">Provides an easy way to browse and view movie and TV show extras. Extras can be accessed from the context menu in the video library. By default, the add-on will look in the &quot;Extras&quot; sub-folder for content (can be changed in settings).[CR][CR]Tip: for how to avoid extras beings scraped to library, see http://kodi.wiki/view/Add-on:Extras</description>
   <description lang="es_ES">Otorga una manera facil de ver extras en películas y series. Se puede acceder a los extras a través del menú contextual en la colección de video. Por defecto, este addon buscará el contenido en la subcarpeta &quot;Extras&quot; (se puede cambiar en los ajustes).[CR][CR]Consejo: para ver como se evita obtener la información de los extras en la colección, visite http://kodi.wiki/view/Add-on:Extras</description>
